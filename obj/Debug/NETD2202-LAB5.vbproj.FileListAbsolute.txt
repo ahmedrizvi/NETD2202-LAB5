@@ -1,0 +1,12 @@
+G:\DC\sem2\netd2202\lab 5\repos\GitHub\NETD2202-LAB5\bin\Debug\NETD2202-LAB5.exe.config
+G:\DC\sem2\netd2202\lab 5\repos\GitHub\NETD2202-LAB5\bin\Debug\NETD2202-LAB5.exe
+G:\DC\sem2\netd2202\lab 5\repos\GitHub\NETD2202-LAB5\bin\Debug\NETD2202-LAB5.pdb
+G:\DC\sem2\netd2202\lab 5\repos\GitHub\NETD2202-LAB5\bin\Debug\NETD2202-LAB5.xml
+G:\DC\sem2\netd2202\lab 5\repos\GitHub\NETD2202-LAB5\obj\Debug\NETD2202-LAB5.vbprojAssemblyReference.cache
+G:\DC\sem2\netd2202\lab 5\repos\GitHub\NETD2202-LAB5\obj\Debug\NETD2202_LAB5.frmTextEditor.resources
+G:\DC\sem2\netd2202\lab 5\repos\GitHub\NETD2202-LAB5\obj\Debug\NETD2202_LAB5.Resources.resources
+G:\DC\sem2\netd2202\lab 5\repos\GitHub\NETD2202-LAB5\obj\Debug\NETD2202-LAB5.vbproj.GenerateResource.cache
+G:\DC\sem2\netd2202\lab 5\repos\GitHub\NETD2202-LAB5\obj\Debug\NETD2202-LAB5.vbproj.CoreCompileInputs.cache
+G:\DC\sem2\netd2202\lab 5\repos\GitHub\NETD2202-LAB5\obj\Debug\NETD2202-LAB5.exe
+G:\DC\sem2\netd2202\lab 5\repos\GitHub\NETD2202-LAB5\obj\Debug\NETD2202-LAB5.xml
+G:\DC\sem2\netd2202\lab 5\repos\GitHub\NETD2202-LAB5\obj\Debug\NETD2202-LAB5.pdb
