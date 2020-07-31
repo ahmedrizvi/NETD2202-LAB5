@@ -143,6 +143,7 @@ Partial Class frmTextEditor
         Me.txtInput.Location = New System.Drawing.Point(0, 27)
         Me.txtInput.Multiline = True
         Me.txtInput.Name = "txtInput"
+        Me.txtInput.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
         Me.txtInput.Size = New System.Drawing.Size(800, 422)
         Me.txtInput.TabIndex = 2
         '

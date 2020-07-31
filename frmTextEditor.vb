@@ -6,7 +6,7 @@ Public Class frmTextEditor
     Private Sub NewClick(sender As Object, e As EventArgs) Handles mnuFileNew.Click
         txtInput.Text = String.Empty
     End Sub
-    ' Allows the user to open an existing text file.
+    ' Allows the user to open an existing text file, when open is clicked.
     Private Sub OpenClick(sender As Object, e As EventArgs) Handles mnuFileOpen.Click
         Dim inputStream As StreamReader ' Reads data into the memory.
 
@@ -14,6 +14,16 @@ Public Class frmTextEditor
             inputStream = New StreamReader(openDialog.FileName) ' Read the file into memory and assign to inputStream.
             txtInput.Text = inputStream.ReadToEnd() ' Displays the entire text file's contents onto the text editor.
             inputStream.Close() ' Close the stream.
+        End If
+    End Sub
+    ' When Save As is clicked, prompts the user for the location to save the file.
+    Private Sub SaveAsClick(sender As Object, e As EventArgs) Handles mnuFileSaveAs.Click
+        Dim outputStream As StreamWriter
+
+        If saveDialog.ShowDialog() = DialogResult.OK Then ' User pressed the OK button.
+            outputStream = New StreamWriter(saveDialog.FileName) ' Save the user's desired file location.
+            outputStream.Write(txtInput.Text) ' Use the string text inside the textbox to write into the file.
+            outputStream.Close() ' Close the stream.
         End If
     End Sub
 #End Region
