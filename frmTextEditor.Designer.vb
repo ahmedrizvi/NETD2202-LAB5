@@ -108,21 +108,21 @@ Partial Class frmTextEditor
         '
         Me.mnuEditCopy.Name = "mnuEditCopy"
         Me.mnuEditCopy.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.C), System.Windows.Forms.Keys)
-        Me.mnuEditCopy.Size = New System.Drawing.Size(144, 22)
+        Me.mnuEditCopy.Size = New System.Drawing.Size(180, 22)
         Me.mnuEditCopy.Text = "Copy"
         '
         'mnuEditCut
         '
         Me.mnuEditCut.Name = "mnuEditCut"
         Me.mnuEditCut.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.X), System.Windows.Forms.Keys)
-        Me.mnuEditCut.Size = New System.Drawing.Size(144, 22)
+        Me.mnuEditCut.Size = New System.Drawing.Size(180, 22)
         Me.mnuEditCut.Text = "Cut"
         '
         'mnuEditPaste
         '
         Me.mnuEditPaste.Name = "mnuEditPaste"
         Me.mnuEditPaste.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.V), System.Windows.Forms.Keys)
-        Me.mnuEditPaste.Size = New System.Drawing.Size(144, 22)
+        Me.mnuEditPaste.Size = New System.Drawing.Size(180, 22)
         Me.mnuEditPaste.Text = "Paste"
         '
         'mnuHelp
@@ -135,11 +135,14 @@ Partial Class frmTextEditor
         'mnuHelpAbout
         '
         Me.mnuHelpAbout.Name = "mnuHelpAbout"
-        Me.mnuHelpAbout.Size = New System.Drawing.Size(180, 22)
+        Me.mnuHelpAbout.Size = New System.Drawing.Size(107, 22)
         Me.mnuHelpAbout.Text = "About"
         '
         'txtInput
         '
+        Me.txtInput.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtInput.Location = New System.Drawing.Point(0, 27)
         Me.txtInput.Multiline = True
         Me.txtInput.Name = "txtInput"
@@ -165,7 +168,7 @@ Partial Class frmTextEditor
         Me.MainMenuStrip = Me.MenuStripTextEditor
         Me.Name = "frmTextEditor"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Text Editor Select a File to Open"
+        Me.Text = "Ahmed's Text Editor"
         Me.MenuStripTextEditor.ResumeLayout(False)
         Me.MenuStripTextEditor.PerformLayout()
         Me.ResumeLayout(False)
