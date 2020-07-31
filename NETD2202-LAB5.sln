@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "NETD2202-LAB5", "NETD2202-LAB5.vbproj", "{FC58BA4E-72B5-4AA8-B145-28BC8D84028E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC58BA4E-72B5-4AA8-B145-28BC8D84028E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC58BA4E-72B5-4AA8-B145-28BC8D84028E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC58BA4E-72B5-4AA8-B145-28BC8D84028E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC58BA4E-72B5-4AA8-B145-28BC8D84028E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2616C717-9E26-41C1-9025-C615F650E0AE}
+	EndGlobalSection
+EndGlobal
