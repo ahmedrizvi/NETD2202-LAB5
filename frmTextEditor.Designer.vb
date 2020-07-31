@@ -135,7 +135,7 @@ Partial Class frmTextEditor
         'mnuHelpAbout
         '
         Me.mnuHelpAbout.Name = "mnuHelpAbout"
-        Me.mnuHelpAbout.Size = New System.Drawing.Size(107, 22)
+        Me.mnuHelpAbout.Size = New System.Drawing.Size(180, 22)
         Me.mnuHelpAbout.Text = "About"
         '
         'txtInput
@@ -164,6 +164,7 @@ Partial Class frmTextEditor
         Me.Controls.Add(Me.MenuStripTextEditor)
         Me.MainMenuStrip = Me.MenuStripTextEditor
         Me.Name = "frmTextEditor"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Text Editor Select a File to Open"
         Me.MenuStripTextEditor.ResumeLayout(False)
         Me.MenuStripTextEditor.PerformLayout()

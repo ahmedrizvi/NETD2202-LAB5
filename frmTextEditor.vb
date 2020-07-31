@@ -26,5 +26,11 @@ Public Class frmTextEditor
             outputStream.Close() ' Close the stream.
         End If
     End Sub
+    ' Pops up the About form when the menu button is clicked.
+    Private Sub mnuHelpAbout_Click(sender As Object, e As EventArgs) Handles mnuHelpAbout.Click
+        Dim aboutModal As New frmAbout
+
+        aboutModal.ShowDialog() ' Brings out the modal window, not allowing the user to click behind the window.
+    End Sub
 #End Region
 End Class

@@ -10,3 +10,4 @@ G:\DC\sem2\netd2202\lab 5\repos\GitHub\NETD2202-LAB5\obj\Debug\NETD2202-LAB5.vbp
 G:\DC\sem2\netd2202\lab 5\repos\GitHub\NETD2202-LAB5\obj\Debug\NETD2202-LAB5.exe
 G:\DC\sem2\netd2202\lab 5\repos\GitHub\NETD2202-LAB5\obj\Debug\NETD2202-LAB5.xml
 G:\DC\sem2\netd2202\lab 5\repos\GitHub\NETD2202-LAB5\obj\Debug\NETD2202-LAB5.pdb
+G:\DC\sem2\netd2202\lab 5\repos\GitHub\NETD2202-LAB5\obj\Debug\NETD2202_LAB5.frmAbout.resources
