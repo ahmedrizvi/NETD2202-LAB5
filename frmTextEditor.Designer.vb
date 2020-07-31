@@ -28,16 +28,16 @@ Partial Class frmTextEditor
         Me.mnuHelp = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripTextEditor = New System.Windows.Forms.ToolStrip()
         Me.txtInput = New System.Windows.Forms.TextBox()
-        Me.NewToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.OpenToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.SaveToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.SaveAsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.CloseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.CopyToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.CutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PasteToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.AboutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.mnuFileNew = New System.Windows.Forms.ToolStripMenuItem()
+        Me.mnuFileOpen = New System.Windows.Forms.ToolStripMenuItem()
+        Me.mnuFileSave = New System.Windows.Forms.ToolStripMenuItem()
+        Me.mnuFileSaveAs = New System.Windows.Forms.ToolStripMenuItem()
+        Me.mnuFileClose = New System.Windows.Forms.ToolStripMenuItem()
+        Me.mnuFileExit = New System.Windows.Forms.ToolStripMenuItem()
+        Me.mnuEditCopy = New System.Windows.Forms.ToolStripMenuItem()
+        Me.mnuEditCut = New System.Windows.Forms.ToolStripMenuItem()
+        Me.mnuEditPaste = New System.Windows.Forms.ToolStripMenuItem()
+        Me.mnuHelpAbout = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStripTextEditor.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -52,21 +52,21 @@ Partial Class frmTextEditor
         '
         'mnuFile
         '
-        Me.mnuFile.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NewToolStripMenuItem, Me.OpenToolStripMenuItem, Me.SaveToolStripMenuItem, Me.SaveAsToolStripMenuItem, Me.CloseToolStripMenuItem, Me.ExitToolStripMenuItem})
+        Me.mnuFile.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.mnuFileNew, Me.mnuFileOpen, Me.mnuFileSave, Me.mnuFileSaveAs, Me.mnuFileClose, Me.mnuFileExit})
         Me.mnuFile.Name = "mnuFile"
         Me.mnuFile.Size = New System.Drawing.Size(37, 20)
         Me.mnuFile.Text = "File"
         '
         'mnuEdit
         '
-        Me.mnuEdit.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CopyToolStripMenuItem, Me.CutToolStripMenuItem, Me.PasteToolStripMenuItem})
+        Me.mnuEdit.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.mnuEditCopy, Me.mnuEditCut, Me.mnuEditPaste})
         Me.mnuEdit.Name = "mnuEdit"
         Me.mnuEdit.Size = New System.Drawing.Size(39, 20)
         Me.mnuEdit.Text = "Edit"
         '
         'mnuHelp
         '
-        Me.mnuHelp.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AboutToolStripMenuItem})
+        Me.mnuHelp.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.mnuHelpAbout})
         Me.mnuHelp.Name = "mnuHelp"
         Me.mnuHelp.Size = New System.Drawing.Size(44, 20)
         Me.mnuHelp.Text = "Help"
@@ -86,65 +86,65 @@ Partial Class frmTextEditor
         Me.txtInput.Size = New System.Drawing.Size(800, 20)
         Me.txtInput.TabIndex = 2
         '
-        'NewToolStripMenuItem
+        'mnuFileNew
         '
-        Me.NewToolStripMenuItem.Name = "NewToolStripMenuItem"
-        Me.NewToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.NewToolStripMenuItem.Text = "New"
+        Me.mnuFileNew.Name = "mnuFileNew"
+        Me.mnuFileNew.Size = New System.Drawing.Size(180, 22)
+        Me.mnuFileNew.Text = "New"
         '
-        'OpenToolStripMenuItem
+        'mnuFileOpen
         '
-        Me.OpenToolStripMenuItem.Name = "OpenToolStripMenuItem"
-        Me.OpenToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.OpenToolStripMenuItem.Text = "Open"
+        Me.mnuFileOpen.Name = "mnuFileOpen"
+        Me.mnuFileOpen.Size = New System.Drawing.Size(180, 22)
+        Me.mnuFileOpen.Text = "Open"
         '
-        'SaveToolStripMenuItem
+        'mnuFileSave
         '
-        Me.SaveToolStripMenuItem.Name = "SaveToolStripMenuItem"
-        Me.SaveToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.SaveToolStripMenuItem.Text = "Save"
+        Me.mnuFileSave.Name = "mnuFileSave"
+        Me.mnuFileSave.Size = New System.Drawing.Size(180, 22)
+        Me.mnuFileSave.Text = "Save"
         '
-        'SaveAsToolStripMenuItem
+        'mnuFileSaveAs
         '
-        Me.SaveAsToolStripMenuItem.Name = "SaveAsToolStripMenuItem"
-        Me.SaveAsToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.SaveAsToolStripMenuItem.Text = "Save As"
+        Me.mnuFileSaveAs.Name = "mnuFileSaveAs"
+        Me.mnuFileSaveAs.Size = New System.Drawing.Size(180, 22)
+        Me.mnuFileSaveAs.Text = "Save As"
         '
-        'CloseToolStripMenuItem
+        'mnuFileClose
         '
-        Me.CloseToolStripMenuItem.Name = "CloseToolStripMenuItem"
-        Me.CloseToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.CloseToolStripMenuItem.Text = "Close"
+        Me.mnuFileClose.Name = "mnuFileClose"
+        Me.mnuFileClose.Size = New System.Drawing.Size(180, 22)
+        Me.mnuFileClose.Text = "Close"
         '
-        'ExitToolStripMenuItem
+        'mnuFileExit
         '
-        Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.ExitToolStripMenuItem.Text = "Exit"
+        Me.mnuFileExit.Name = "mnuFileExit"
+        Me.mnuFileExit.Size = New System.Drawing.Size(180, 22)
+        Me.mnuFileExit.Text = "Exit"
         '
-        'CopyToolStripMenuItem
+        'mnuEditCopy
         '
-        Me.CopyToolStripMenuItem.Name = "CopyToolStripMenuItem"
-        Me.CopyToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.CopyToolStripMenuItem.Text = "Copy"
+        Me.mnuEditCopy.Name = "mnuEditCopy"
+        Me.mnuEditCopy.Size = New System.Drawing.Size(180, 22)
+        Me.mnuEditCopy.Text = "Copy"
         '
-        'CutToolStripMenuItem
+        'mnuEditCut
         '
-        Me.CutToolStripMenuItem.Name = "CutToolStripMenuItem"
-        Me.CutToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.CutToolStripMenuItem.Text = "Cut"
+        Me.mnuEditCut.Name = "mnuEditCut"
+        Me.mnuEditCut.Size = New System.Drawing.Size(180, 22)
+        Me.mnuEditCut.Text = "Cut"
         '
-        'PasteToolStripMenuItem
+        'mnuEditPaste
         '
-        Me.PasteToolStripMenuItem.Name = "PasteToolStripMenuItem"
-        Me.PasteToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.PasteToolStripMenuItem.Text = "Paste"
+        Me.mnuEditPaste.Name = "mnuEditPaste"
+        Me.mnuEditPaste.Size = New System.Drawing.Size(180, 22)
+        Me.mnuEditPaste.Text = "Paste"
         '
-        'AboutToolStripMenuItem
+        'mnuHelpAbout
         '
-        Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
-        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.AboutToolStripMenuItem.Text = "About"
+        Me.mnuHelpAbout.Name = "mnuHelpAbout"
+        Me.mnuHelpAbout.Size = New System.Drawing.Size(180, 22)
+        Me.mnuHelpAbout.Text = "About"
         '
         'frmTextEditor
         '
@@ -170,14 +170,14 @@ Partial Class frmTextEditor
     Friend WithEvents mnuHelp As ToolStripMenuItem
     Friend WithEvents ToolStripTextEditor As ToolStrip
     Friend WithEvents txtInput As TextBox
-    Friend WithEvents NewToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents OpenToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents SaveToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents SaveAsToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents CloseToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents ExitToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents CopyToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents CutToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents PasteToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents AboutToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents mnuFileNew As ToolStripMenuItem
+    Friend WithEvents mnuFileOpen As ToolStripMenuItem
+    Friend WithEvents mnuFileSave As ToolStripMenuItem
+    Friend WithEvents mnuFileSaveAs As ToolStripMenuItem
+    Friend WithEvents mnuFileClose As ToolStripMenuItem
+    Friend WithEvents mnuFileExit As ToolStripMenuItem
+    Friend WithEvents mnuEditCopy As ToolStripMenuItem
+    Friend WithEvents mnuEditCut As ToolStripMenuItem
+    Friend WithEvents mnuEditPaste As ToolStripMenuItem
+    Friend WithEvents mnuHelpAbout As ToolStripMenuItem
 End Class
